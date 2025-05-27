@@ -1,6 +1,6 @@
 # Blurring-Sharpening Process Models for Collaborative Filtering
 
-This repository provides an *efficient and clarified* PyTorch implementation of the Blurring-Sharpening Processing Model (BSPM). The official implementation of BSPM can be found [here](https://github.com/jeongwhanchoi/BSPM). The paper can be found [here](https://dl.acm.org/doi/abs/10.1145/3539618.3591645).
+This repository provides an *efficient and clarified* PyTorch implementation of the Blurring-Sharpening Processing Model (BSPM). The original and official implementation of BSPM can be found [here](https://github.com/jeongwhanchoi/BSPM). The paper can be found [here](https://dl.acm.org/doi/abs/10.1145/3539618.3591645).
 
 
 ## Setup

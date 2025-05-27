@@ -1,0 +1,17 @@
+seed: 2024
+comment: bspm_yelp2018
+device: cuda
+batch_size: 1024
+
+dataset: yelp2018
+metrics: [recall, ndcg]
+top_ks: [10, 20]
+
+sharp_solv: euler
+sharp_step: 1
+sharp_time: 1.2
+ideal_cutoff: 384
+ideal_weight: 0.3
+early_merge: 1 # True
+point_combi: 1 # True
+sharp_off: 0 # False

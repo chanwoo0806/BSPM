@@ -1,0 +1,17 @@
+seed: 2024
+comment: bspm_amazon-book
+device: cuda
+batch_size: 1024
+
+dataset: amazon-book
+metrics: [recall, ndcg]
+top_ks: [10, 20]
+
+sharp_solv: rk4
+sharp_step: 2
+sharp_time: 2.2
+ideal_cutoff: 0
+ideal_weight: 0.0
+early_merge: 0 # False
+point_combi: 0 # False
+sharp_off: 0 # False

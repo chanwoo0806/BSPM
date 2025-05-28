@@ -38,8 +38,9 @@ class BSPM(AllRankRec):
         self.sharp_off = sharp_off
         self.point_combi = point_combi
         
-        sharp_ts = torch.linspace(0, sharp_time, sharp_step+1).float()
-        self.register_buffer('sharp_ts', sharp_ts)
+        if not sharp_off:
+            sharp_ts = torch.linspace(0, sharp_time, sharp_step+1).float()
+            self.register_buffer('sharp_ts', sharp_ts)
         
         self.linear = LinearFilter()
         self.ideal = None
